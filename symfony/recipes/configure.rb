@@ -18,7 +18,7 @@ node[:deploy].each do |application, deploy|
   end
 
   # Create the parameters.yml file.
-  include_recipe 'symfony::paramconfig'
+  #include_recipe 'symfony::paramconfig'
 
   # Install dependencies using composer install
   include_recipe 'composer::install'
